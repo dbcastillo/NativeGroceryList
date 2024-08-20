@@ -4,7 +4,6 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  TextInput,
 } from "react-native";
 
 const ListItem = ({ item }) => {
