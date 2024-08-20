@@ -41,7 +41,7 @@ const App = () => {
       );
     } else {
       setItems(prevItems => {
-        return [{id: uuid.v4(), text}, ...prevItems];
+        return [...prevItems, {id: uuid.v4(), text}];
       });
     }
   };
